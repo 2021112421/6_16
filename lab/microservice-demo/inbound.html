@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbound Stock</title>
+</head>
+<body>
+<h1>Inbound Stock</h1>
+<form id="inboundForm">
+    <label for="productId">Product ID:</label>
+    <input type="number" id="productId" name="productId"><br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br><br>
+    <button type="button" onclick="addStock()">Add Stock</button>
+</form>
+<script>
+    async function addStock() {
+        const productId = document.getElementById('productId').value;
+        const quantity = document.getElementById('quantity').value;
+
+        if (!productId || !quantity) {
+            alert("Please fill in all fields");
+            return;
+        }
+
+        try {
+            const response = await fetch('http://localhost:8016/addStock', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ productId: parseInt(productId), quantity: parseInt(quantity) })
+            });
+
+            if (response.ok) {
+                const result = await response.text();
+                alert(result);
+            } else {
+                const error = await response.text();
+                console.error('Failed to add stock:', error);
+                alert("Failed to add stock: " + error);
+            }
+        } catch (error) {
+            console.error("Error adding stock:", error);
+            alert("Error adding stock: " + error);
+        }
+    }
+</script>
+</body>
+</html>

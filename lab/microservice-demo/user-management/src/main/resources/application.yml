@@ -1,0 +1,24 @@
+server:
+  port: 8015
+
+spring:
+  application:
+    name: usermanagement
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/tb_product?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+    fetch-registry: true

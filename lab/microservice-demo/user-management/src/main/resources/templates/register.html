@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+<h2>Register</h2>
+<form action="/register" method="post">
+  <div>
+    <label>Username:</label>
+    <input type="text" name="username" required />
+  </div>
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password" required />
+  </div>
+  <div>
+    <label>Role:</label>
+    <input type="text" name="role" value="USER" required />
+  </div>
+  <div>
+    <button type="submit">Register</button>
+  </div>
+</form>
+<div>
+  <a href="/login">Already have an account? Login here</a>
+</div>
+
+<!-- Display error message if exists -->
+<div>
+  <span style="color: red;">${error}</span>
+</div>
+
+<!-- Display success message if exists -->
+<div>
+  <span style="color: green;">${message}</span>
+</div>
+
+</body>
+</html>

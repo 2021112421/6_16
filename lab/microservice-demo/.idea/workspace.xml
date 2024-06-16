@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f90da305-16fd-443b-897a-8db81150fb1d" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/java/cn/simplemicroservice/eurekaservice/EurekaServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/test/java/cn/simplemicroservice/eurekaservice/EurekaServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/com/example/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/java/microservicedemo/inboundservice/InboundServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/java/microservicedemo/inboundservice/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/java/microservicedemo/inboundservice/controller/InboundController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/java/microservicedemo/inboundservice/mapper/InboundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/java/microservicedemo/inboundservice/po/Inbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound-service/src/test/java/microservicedemo/inboundservice/InboundServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inbound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/java/microservicedemo/outboundservice/OutboundServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/java/microservicedemo/outboundservice/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/java/microservicedemo/outboundservice/controller/OutboundController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/java/microservicedemo/outboundservice/mapper/OutboundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/java/microservicedemo/outboundservice/po/Outbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound-service/src/test/java/microservicedemo/outboundservice/OutboundServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outbound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/java/cn/microservicedemo/productclient/Client/ProductServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/java/cn/microservicedemo/productclient/Client/ProductServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/java/cn/microservicedemo/productclient/ProductClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/java/cn/microservicedemo/productclient/controller/ProductServiceClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/java/cn/microservicedemo/productclient/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-client/src/test/java/cn/microservicedemo/productclient/ProductClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/microservicedemo/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/microservicedemo/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/microservicedemo/productservice/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/microservicedemo/productservice/po/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/microservicedemo/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/UsermanagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/java/microservicedemo/usermanagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/src/test/java/microservicedemo/usermanagement/UsermanagementApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Develop/Maven/apache-maven-3.8.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Develop\Maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+  </component>
+  <component name="ProjectId" id="2e2YEZwjJkh6qOhlYuoAxFMdxvy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/课件/云原神/lab/microservice-demo/usermanagement/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "9485b4cadd22880a84d730101717d0a7",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\课件\云原神\lab\microservice-demo\usermanagement\src\main\resources" />
+      <recent name="D:\课件\云原神\lab\microservice-demo\inbound-service\src\main\resources" />
+      <recent name="D:\课件\云原神\lab\microservice-demo\outbound-service\src\main\resources" />
+      <recent name="D:\课件\云原神\lab\microservice-demo\inventoryin-service\src\main\resources" />
+      <recent name="D:\课件\云原神\lab\microservice-demo\eureka-service\src\main\java\cn\simplemicroservice\eurekaservice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\课件\云原神\lab\microservice-demo\usermanagement\src\main\resources\templates" />
+      <recent name="D:\课件\云原神\lab\microservice-demo" />
+      <recent name="D:\课件\云原神\lab\microservice-demo\inbound-service\src\main\java\microservicedemo\inboundservice" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clean install -e -U" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServiceApplication">
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.simplemicroservice.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InboundServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inbound-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservicedemo.inboundservice.InboundServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutboundServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="outbound-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservicedemo.outboundservice.OutboundServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.microservicedemo.productclient.ProductClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMgrApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservicedemo.productservice.ProductServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8011" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservicedemo.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservicedemo.usermanagement.UserManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f90da305-16fd-443b-897a-8db81150fb1d" name="变更" comment="" />
+      <created>1711104032155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711104032155</updated>
+      <workItem from="1711104032910" duration="2039000" />
+      <workItem from="1711106094173" duration="9037000" />
+      <workItem from="1711170298124" duration="1207000" />
+      <workItem from="1711172187828" duration="572000" />
+      <workItem from="1711172773716" duration="77000" />
+      <workItem from="1711172965756" duration="3396000" />
+      <workItem from="1711189705377" duration="6112000" />
+      <workItem from="1711775403192" duration="8125000" />
+      <workItem from="1712985234821" duration="8059000" />
+      <workItem from="1713589895247" duration="1875000" />
+      <workItem from="1715004453581" duration="62000" />
+      <workItem from="1718350923259" duration="10423000" />
+      <workItem from="1718443597348" duration="3782000" />
+      <workItem from="1718456785149" duration="1692000" />
+      <workItem from="1718458621318" duration="11401000" />
+      <workItem from="1718509502518" duration="12233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
